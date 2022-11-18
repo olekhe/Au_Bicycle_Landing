@@ -10,14 +10,15 @@ p {
     line-height: 40px;
     text-align: center;
     text-decoration-line: underline;
-    color: #FFD897;
+    color: #D1DDE8;
 }
 
 a {
-    
+    color: #FFD897
 }
 
 .section {
+	margin-bottom: 150px;
     position: relative;
 }
 
@@ -37,4 +38,8 @@ a {
     font-size: 24px;
     line-height: 24px;
     color: #D1DDE8;
+}
+
+.bold {
+	font-weight: bold;
 }
