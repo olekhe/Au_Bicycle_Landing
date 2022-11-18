@@ -1,0 +1,12 @@
+------------------------
+
+GULP 4 PACKAGE SOURCE
+Easy-webdev-startpack 3.3.1: https://github.com/budfy/Easy-webdev-startpack
+
+------------------------
+
+BOOTSTRAP: https://getbootstrap.com/
+
+JQUERY: http://jquery.org/
+
+------------------------
