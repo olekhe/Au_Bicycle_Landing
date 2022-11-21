@@ -9,40 +9,39 @@
 
 	img {
 		display: block;
-		width: 16%;
-	}
+		width: 16.6%;
 
-	@media (max-width: 768px) { 
-		flex-direction: column;
-	}
+		@media (max-width: 768px) { 
+			width: 50%;
+		}
 
-	@media (max-width: 768px) { 
-		img {
+		@media (max-width: 425px) { 
 			display: block;
 			width: 100%;
-		}
-	 }
+		 }
+	}
+
+	@media (max-width: 425px) { 
+		flex-direction: column;
+	}
 
 }
 
 .images-row-3 {
 	display: flex;
 
-	@media (max-width: 768px) { 
-		flex-direction: column;
-	}
-
 	img {
 		display: block;
-		width: 32%;
-	}
-
-	@media (max-width: 768px) { 
-		img {
+		width: 33.3%;
+		@media (max-width: 425px) { 
 			display: block;
 			width: 100%;
-		}
-	 }
+		 }
+	}
+
+	@media (max-width: 425px) { 
+		flex-direction: column;
+	}
 
 }
 
@@ -51,18 +50,35 @@
 
 	img {
 		display: block;
-		width: 49%;
+		width: 50%;
+		@media (max-width: 768px) { 
+			width: 50%;
+		}
+		@media (max-width: 425px) { 
+			display: block;
+			width: 100%;
+		 }
 	}
 
-	@media (max-width: 768px) { 
+	@media (max-width: 425px) { 
 		flex-direction: column;
 	}
 
-	@media (max-width: 768px) { 
-		img {
-			display: block;
-			width: 100%;
-		}
-	 }
+}
 
+.bx-wrapper {
+	background: none!important;
+	box-shadow: none!important;
+	border: 0!important;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+	width: 15px!important;
+    height: 15px!important;
+	border-radius: 10px!important;
+	background: #BBC2C4!important;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus, .bx-wrapper .bx-pager.bx-default-pager a:hover {
+    background: #4ABBC7!important;
 }

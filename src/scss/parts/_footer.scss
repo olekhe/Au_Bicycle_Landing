@@ -20,15 +20,12 @@
         bottom: 230px;
         width: 50%;
         right: 35%;
-    }
-
-    @media (max-width: 768px) { 
-		.footer_text {
+        @media (max-width: 768px) { 
             width: 100%;
             bottom: 0;
             right: 0;
             left: 0;
         }
-	}
+    }
 
 }

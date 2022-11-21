@@ -19,6 +19,10 @@ a {
 	margin-bottom: 150px;
     position: relative;
 	min-height: 600px;
+    @media (max-width: 768px) { 
+        margin-bottom: 50px;
+        min-height: 100px;
+     }
 }
 
 .title {
@@ -61,8 +65,11 @@ a {
     margin-bottom: 30px;
 }
 
-.mt-350 {
-    margin-top: 350px;
+.mt-400 {
+    margin-top: 400px;
+    @media (max-width: 768px) { 
+        margin-top: 50px!important;
+     }
 }
 
 .text-left {

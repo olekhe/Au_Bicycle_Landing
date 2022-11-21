@@ -9,6 +9,11 @@
     .stats_list {
         border-left: 1px solid #D1DDE8;
 
+        @media (max-width: 425px) { 
+            border-left: 0;
+            padding-left: 0;
+        }
+
         li {
             list-style: none;
             color: #D1DDE8;
