@@ -1,7 +1,23 @@
 .stats {
     .stats_images_row {
         img {
+            width: 80%;
             margin-bottom: 50px;
         }
+    }
+
+    .stats_list {
+        border-left: 1px solid #D1DDE8;
+
+        li {
+            list-style: none;
+            color: #D1DDE8;
+            display: flex;
+            margin-bottom: 20px;
+        }
+    }
+
+    .stats_day, .stats_km {
+        padding-right: 40px;
     }
 }

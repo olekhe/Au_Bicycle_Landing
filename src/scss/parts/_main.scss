@@ -1,4 +1,7 @@
 .main {
+    background: url('../img/main_section.png') no-repeat;
+    padding-top: 30px;
+    
     .main_title {
         font-family: 'Josefin Sans';
         font-style: normal;
@@ -6,5 +9,16 @@
         font-size: 48px;
         line-height: 48px;
         color: #FFD897;
+    }
+
+    h1, h2, h3 {
+        text-align: right;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 24px;
+        color: #FFFFFF;
+        padding-bottom: 15px;
     }
 }

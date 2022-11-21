@@ -1,25 +1,24 @@
 body {
-    background: #1F3E5E;
+    background: #1F3E5E!important;
 }
 
 p {
-    font-family: 'Josefin Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 40px;
-    text-align: center;
-    text-decoration-line: underline;
-    color: #D1DDE8;
+    font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #D1DDE8;
 }
 
 a {
-    color: #FFD897
+    color: #FFD897!important;
 }
 
 .section {
 	margin-bottom: 150px;
     position: relative;
+	min-height: 600px;
 }
 
 .title {
@@ -29,6 +28,7 @@ a {
     font-size: 36px;
     line-height: 36px;
     color: #4ABBC7;
+	padding-bottom: 30px;
 }
 
 .subtitle {
@@ -38,8 +38,45 @@ a {
     font-size: 24px;
     line-height: 24px;
     color: #D1DDE8;
+	padding-bottom: 15px;
 }
 
 .bold {
 	font-weight: bold;
+}
+
+.text-white {
+    color: #D1DDE8;
+}
+
+.text-orange {
+    color: #FFD897;
+}
+
+.mb-50 {
+	margin-bottom: 50px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mt-350 {
+    margin-top: 350px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
 }
